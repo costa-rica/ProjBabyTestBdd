@@ -2,7 +2,7 @@
 
 ## install
 
-1. clone repo
+1. clone repo: `git clone https://github.com/costa-rica/ProjBabyTestBdd.git`
 2. install mongoose
    - dans le terminal dans le repertoire: `yarn add mongoose`
 3. ajouter le .env ou just coller le BDD connection string
@@ -27,7 +27,7 @@ copie le contenu de /models/project.js de notre Project_Baby_Backend
 
 ### 3. ecrit les query qui m'interess
 
-👉🏻 ou cas ou: oui, en fait, .populate() est utils dans de cas de le cle etranger, et n'est pas juste pour les sous-documents
+👉🏻 Au cas où : oui, en fait, .populate() est utile dans le cas des clés étrangères, et pas seulement pour les sous-documents.
 
 1. query sans .populate()
 
